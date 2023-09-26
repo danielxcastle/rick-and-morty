@@ -1,3 +1,146 @@
-/* 
-    General Styles
-*/
+.rick-logo {
+    padding-left: 10rem;
+  }
+  .items-container {
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 3rem;
+    margin-bottom: 6rem;
+    border: 0.5rem solid #4cab48;
+    background-color: #4cab48;
+  }
+  .title-list {
+    padding-left: 3rem;
+  }
+  .fav-button {
+    float: right;
+    padding-right: 10rem;
+  }
+  .navbar {
+    background-color: #2e4731;
+  }
+  .favs-button {
+    background-color: #4cab48;
+  }
+  .favs-button:hover {
+    background-color: #f5e017;
+    color: #4cab48;
+    border: #000000 2px solid;
+  }
+  body {
+    background-image: url("https://wallpapers.com/images/hd/rick-and-morty-looking-at-the-night-sky-tr8wxryct280wstz.webp");
+    background-size: cover;
+  }
+  .titles {
+    color: #000000;
+    border-color: #f5e017;
+    -webkit-text-stroke: 2px #b0cf55;
+    font-family: "Star Wars", sans-serif;
+  }
+  .card {
+    background-color: #b0cf55;
+    margin-right: 0.5rem;
+    border: 0.2rem solid #000000;
+    height: 500px;
+  }
+  
+  .container {
+    padding-top: 1rem;
+  }
+  
+  .fav-button-card {
+    background-color: #4cab48;
+  }
+  .bottom-buttons-card {
+    position: absolute;
+    bottom: 1rem;
+  }
+  .fav-button-card:hover {
+    background-color: #f5e017;
+    color: #4cab48;
+    border: #000000 2px solid;
+  }
+  .learn-more {
+    background-color: #4cab48;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .learn-more:hover {
+    background-color: #f5e017;
+    color: #4cab48;
+    border: #000000 2px solid;
+  }
+  .card-img-top{
+    border: #000000 2px solid;
+  }
+  .card-body{
+    border: #000000 2px solid;
+  }
+  .info-container{
+    background-color: #4cab48;
+    border-radius: 10px;
+    border: #b0cf55 5px solid ;
+    padding-top: 0px;
+  }
+  .info-title{
+    border: 5px #000000 solid;
+  }
+  .info-img{
+    width: 100%;
+    border-left: #000000 5px solid;
+    border-right: #000000 5px solid;
+  }
+  
+  .info-details-left{
+    border-right: 5px #000000 solid;
+    border-left: 5px #000000 solid;
+    border-bottom: 5px #000000 solid;
+    background-color: lightgray;
+  }
+  .info-details-right{
+    font-size: 55px;
+    border-right: 5px #000000 solid;
+    border-bottom: 5px #000000 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    background-color: tan;
+  }
+  .name-details-card{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 65px;
+  }
+  .delete-button{
+    float: right;
+    padding-right: 5px;
+  }
+  .delete-button:hover{
+    color: red;
+  }
+  .dropdown-link:hover{
+    color: #000000;
+    font-weight: 900;
+  }
+  .dropdown-link{
+    text-decoration: none;
+    color: black;
+  }
+  .footer-text{
+    display: flex;
+    background-color: #2e4731;
+    position: absolute;
+    bottom: 0;
+  }
+  .dropdown-link-nothing{
+    color: #000000;
+    text-decoration: none;
+  }
+  .dropdown-link-nothing:hover{
+    color: #000000;
+    text-decoration: none;
+  }
